@@ -1,5 +1,5 @@
 import express from 'express'
-import { Logger,Borgen } from '../lib/Borgen';
+import { Logger,Borgen } from '../lib/index';
 
 const app = express();
 app.use(

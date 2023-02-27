@@ -6,6 +6,7 @@
   ],
   "description": "A fully customizable HTTP request logger for node-express .",
   "main": "lib/index.js",
+  "module": "lib/index.js",
   "scripts": {
     "build": "tsc"
   },
@@ -25,7 +26,7 @@
   "license": "MIT",
   "files": [
     "LICENSE",
-    "HISTORY.md",
+    "CHANGELOG.md",
     "README.md",
     "Borgen.js",
     "Borgen.d.ts"

@@ -29,7 +29,8 @@
     "CHANGELOG.md",
     "README.md",
     "Borgen.js",
-    "Borgen.d.ts"
+    "Borgen.d.ts",
+    "package.json"
   ],
   "engines": {
     "node": ">= 0.8.0"

@@ -1,4 +1,4 @@
 # Borgen
-A custom Logger for Node Servers. Borgen logger.
+A custom Logger for Node-Express Servers. Borgen logger.
 
 ### Still in development.

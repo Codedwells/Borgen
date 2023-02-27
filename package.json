@@ -1,7 +1,10 @@
 {
   "name": "borgen",
   "version": "0.1.0",
-  "description": "A fully customizable nodejs logger.",
+  "contributors": [
+    "Abel Misiocha <abel@abeldev.site>"
+  ],
+  "description": "A fully customizable HTTP request logger for node-express .",
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc"
@@ -12,10 +15,24 @@
   },
   "keywords": [
     "logger",
-    "nodejs"
+    "nodejs",
+    "express",
+    "http",
+    "logger",
+    "middleware"
   ],
   "author": "Abel Misiocha",
   "license": "MIT",
+  "files": [
+    "LICENSE",
+    "HISTORY.md",
+    "README.md",
+    "Borgen.js",
+    "Borgen.d.ts"
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
   "bugs": {
     "url": "https://github.com/Codedwells/Borgen/issues"
   },

@@ -202,6 +202,14 @@ app.use(
 
 <br>
 
+## 💪🏽 Thanks to all the awesome Contributors
+
+Thanks a lot for spending your time helping Borgen grow. Thanks a lot! Keep rocking🍻
+
+![Contributors](https://contrib.rocks/image?repo=Codedwells/Borgen)
+
+<br>
+
 ---
 
 <br>

@@ -21,17 +21,10 @@
 ## 👩🏽‍💻 Prerequisite Skills to Contribute
 
 ### Contribute in project
-
--   Frontend
-
-    -   JavaScript
-    -   HTML
-    -   CSS
-
--   Backend
+    -   TypeScript
     -   NodeJs
     -   Express
-    -   MongoDB
+
 
 ---
 
@@ -64,7 +57,7 @@ cd Borgen
 4. Set upstream command:
 
 ```bash
-git remote add upstream https://github.com/Codedwells/Borgen.git
+git remote add upstream https://github.com/<your-github-username>/Borgen.git
 ```
 
 5. Create a new branch:

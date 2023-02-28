@@ -191,7 +191,7 @@ app.use(
 - `routeColor` it is the color of the route of the request e.g **/api/v1/users**.
 - `statusColor` it is the color of the status text
 - `resTimeColor` it is the color of how long it took the request to process and give a response.
-- `statusCodesCl` it is where you specify the color of status codes in diffrent ranges\
+- `statusCodesCl` it is where you specify the color of status codes in different ranges
   - `serverErr` for **5xx**
   - `clientErr` for **4xx**
   - `redirects` for **3xx**

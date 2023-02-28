@@ -1,6 +1,6 @@
 const express = require('express');
 
-const { Logger, Borgen } = require('../lib/index');
+const { Logger, Borgen } = require('borgen');
 
 const app = express();
 app.use(

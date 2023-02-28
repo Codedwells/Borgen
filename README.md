@@ -8,6 +8,8 @@ The custom Logger for your **Node-Express app**.
 
 A HTTP request logger middleware for nodeJs
 
+![borgen logger](screenshots/borgen.png)
+
 <br>
 
 ---
@@ -21,7 +23,7 @@ This is a [Node.js](https://nodejs.org/en/) module available through the
 [`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
 
 ```sh
-$ npm install borgen
+$ npm i borgen
 ```
 
 <br>
@@ -33,10 +35,10 @@ $ npm install borgen
 ## 🚀Usage
 
 ```js
-const { Logger, Borgen } = require('../lib/Borgen');
+const { Logger, Borgen } = require('borgen');
 ```
 ```ts
-import { Logger,Borgen } from '../lib/Borgen';
+import { Logger,Borgen } from 'borgen';
 ```
 
 ### Basic use
@@ -45,7 +47,7 @@ the colors it uses in logging.
 
 ```js
 const express = require('express');
-const { Logger, Borgen } = require('../lib/Borgen');
+const { Logger, Borgen } = require('borgen');
 
 const app = express();
 app.use(Borgen({}))
@@ -109,7 +111,7 @@ Logger has three options:
 
 ```js
 const express = require('express');
-const { Logger, Borgen } = require('../lib/Borgen');
+const { Logger, Borgen } = require('borgen');
 
 const app = express();
 
@@ -164,7 +166,7 @@ You can fully customize the color for your incoming requests.
 
 ```js
 const express = require('express');
-const { Logger, Borgen } = require('../lib/Borgen');
+const { Logger, Borgen } = require('borgen');
 
 const app = express();
 app.use(

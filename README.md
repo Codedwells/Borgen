@@ -26,6 +26,16 @@ This is a [Node.js](https://nodejs.org/en/) module available through the
 $ npm i borgen
 ```
 
+**If you use yarn:**
+```sh
+$ yarn add borgen
+```
+
+**If you use pnpm:**
+```sh
+$ pnpm add borgen
+```
+
 <br>
 
 ---
@@ -60,6 +70,7 @@ app.listen('3002', () => {
     Logger.info({ message: 'The server is running on port 3002'});
 });
 ```
+![borgen basic use](./screenshots/borgen_basic.png)
 
 ## Available Customizations: 🌞Colors
 - `black`
@@ -97,6 +108,7 @@ Logger.info({message: 'This is an informational message.'});
 Logger.warn({message:'This is a warning message.'});
 Logger.error({message:'This is an error message.'})
 ```
+![Logger basic use](./screenshots/logger_defaults.png)
 
 ### Customizing the Colors🧰
 You can fully customize the color for your log.
@@ -126,9 +138,10 @@ app.get('*', (req, res) => {
 });
 
 app.listen('3001', () => {
-    Logger.info({ message: 'The server is running on port ' });
+   Logger.info({ message: 'The server is running on port 3001', infoColor: 'cyanBright', messageColor: 'whiteBright' });
 });
 ```
+![Logger custom use](./screenshots/logger_basic.png)
 <br>
 
 ### Logger arguments💥
@@ -160,6 +173,7 @@ This middleware  is able to handle all you incoming requests and you can \
 ```js
 app.use(Borgen({}))
 ```
+![Borgen basic use](screenshots/borgen_defaults.png)
 
 ### 🧰Customizing the Colors
 You can fully customize the color for your incoming requests.
@@ -184,7 +198,12 @@ app.use(
         statusCodesCl: { serverErr: 'red', clientErr: 'yellow', redirects: 'cyan', success: 'greenBright' }
     })
 );
+
+app.listen('3001', () => {
+   Logger.info({ message: 'The server is running on port 3001', infoColor: 'cyanBright', messageColor: 'whiteBright' });
+});
 ```
+![Borgen custom use](./screenshots/borgen_custom.png)
 
 ### Borgen arguments💥
 - `methodColor` it is an Object which allows you to specify a specific color for different request types.

@@ -208,7 +208,7 @@ app.use(
 
 ## License📑
 
-[MIT](LICENSE)
+[MIT](https://github.com/Codedwells/Borgen/blob/master/LICENSE)
 
 
 [npm-downloads-image]: https://badgen.net/npm/dm/borgen

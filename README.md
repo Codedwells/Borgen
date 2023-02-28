@@ -2,7 +2,7 @@
 
 [![NPM Version][npm-version-image]][npm-url]
 [![NPM Downloads][npm-downloads-image]][npm-url]
-[![Test Coverage][coveralls-image]][coveralls-url]
+[![Coverage Status](https://coveralls.io/repos/github/Codedwells/Borgen/badge.svg?branch=master)](https://coveralls.io/github/Codedwells/Borgen?branch=master)
 
 The custom Logger for your **Node-Express app**.
 
@@ -210,8 +210,7 @@ app.use(
 
 [MIT](LICENSE)
 
-[coveralls-image]: https://badgen.net/coveralls/c/github/Codedwells/main
-[coveralls-url]: https://coveralls.io/r/Codedwells/borgen?branch=main
+
 [npm-downloads-image]: https://badgen.net/npm/dm/borgen
 [npm-url]: https://npmjs.org/package/borgen
 [npm-version-image]: https://badgen.net/npm/v/borgen

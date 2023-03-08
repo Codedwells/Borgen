@@ -221,6 +221,37 @@ app.listen('3001', () => {
 
 <br>
 
+# Save my logs🚀
+Using this feature you can store you apps log in a file.\
+This feature is useful for debugging and for production.
+
+<br>
+
+## 📑Borgen logs 🐾
+**logs** argument allows you to specify a  path where your log file will be located.
+```js
+app.use(
+    Borgen({
+        logs: '../logs/borgen.log'
+    })
+);
+```
+## 📑Logger logs 🐾
+To save your logs you need to add the **logs** parameter as an argument.
+
+```js
+ Logger.info({ logs: '../logs/info.log' });
+ Logger.warn({ logs: '../logs/warnings.log' });
+ Logger.error({ logs: '../logs/error.log' });
+```
+
+> \
+> **Note:** The 🔖log file name can be any custom name. ' ./custom_name.log '
+> ___
+
+<br>
+<br>
+
 ## 💪🏽 Thanks to all the awesome Contributors
 
 Thanks a lot for spending your time helping Borgen grow. Thanks a lot! Keep rocking🍻
